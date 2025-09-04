@@ -11,13 +11,13 @@ header {
   color: #0a2647;
   padding: 20px;
   text-align: center;
-  border-bottom: 3px solid #144272; /* adds a strong divider */
+  border-bottom: 3px solid #144272;
 }
 
 header img {
   display: block;
   margin: 0 auto 10px auto;
-  height: 100px; /* adjust size as needed */
+  height: 100px;
 }
 
 header h1 {
@@ -47,33 +47,6 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-}
-
-section {
-  padding: 40px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background: white;
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-footer {
-  background: #0a2647;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
 }
 
 /* Hero section */
@@ -109,4 +82,31 @@ footer {
 .cta-button:hover {
   background: #f1a000;
   color: white;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #0a2647;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }
