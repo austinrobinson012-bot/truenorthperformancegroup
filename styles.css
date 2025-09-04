@@ -4,50 +4,67 @@ body {
   color: #222;
   background: #f8f9fa;
 }
+
+/* Header section */
 header {
-  background: #0a2647;
+  background: linear-gradient(135deg, #0a2647, #144272);
   color: white;
   padding: 20px;
   text-align: center;
 }
+
+header img {
+  display: block;
+  margin: 0 auto 10px auto;
+  height: 100px; /* Adjust size as needed */
+}
+
 header h1 {
   margin: 0;
   font-size: 2.2em;
 }
+
 header p {
   margin: 5px 0 0;
   font-size: 1.1em;
 }
+
 nav {
   background: #144272;
   padding: 10px;
   text-align: center;
 }
+
 nav a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
   font-weight: bold;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
+
 section {
   padding: 40px 20px;
   max-width: 1000px;
   margin: auto;
 }
+
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
+
 .card {
   background: white;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
 footer {
   background: #0a2647;
   color: white;
